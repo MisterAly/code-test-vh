@@ -56,6 +56,7 @@ export const JobApply = ({ apply }: JobApplyProps) => {
               borderRadius={3}
               p='1.50rem 2rem'
               _hover={{ hover: 'none' }}
+              onClick={onClose}
             >
               Apply
             </Button>
